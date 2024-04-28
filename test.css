@@ -1,0 +1,120 @@
+
+body {
+	/* background-color: #125161; */
+	background-color: #000000;
+}
+
+h1 {
+	text-align: center;
+	font-size: 250%;
+	color: rgb(220, 220, 220);
+	background-color: black;
+}
+
+#container {
+	background-color: #125161;
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	gap: 20px;
+	align-items: start;
+}
+
+#Buttonline {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 100vh;
+	background-color: black;
+}
+
+b1 {
+	display: flex; /* Verwende Flexbox */
+	justify-content: center; /* Zentriere den Text horizontal */
+	align-items: center; /* Zentriere den Text vertikal */
+	width: 150px;
+	height: 50px;
+	color: rgb(220, 220, 220);
+	font-size: 15px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+b1:hover {
+	background-color: #0d3d4f;
+}
+
+b1:active {
+	background-color: #0a2b36;
+}
+
+#container2 {
+	display: grid;
+	background-color: #125161;
+	grid-template-rows: 1fr auto;
+	gap: 20px;
+}
+
+/* Verschiedenen Seiten */
+#Home {
+	background-color: #125161;
+	color: rgb(220, 220, 220);
+	font-size: 15px;
+	padding: 10px 20px;
+	margin-top: 15px;
+	margin-right: 15px;
+	border: 2px solid rgb(220, 220, 220);
+	border-radius: 5px;
+}
+
+#Applications {
+	background-color: #125161;
+	color: rgb(220, 220, 220);
+	font-size: 15px;
+	padding: 10px 20px;
+	margin-top: 15px;
+	margin-right: 15px;
+	border: 2px solid rgb(220, 220, 220);
+	border-radius: 5px;
+}
+
+#Contact {
+	background-color: #125161;
+	color: rgb(220, 220, 220);
+	font-size: 15px;
+	padding: 10px 20px;
+	margin-top: 15px;
+	margin-right: 15px;
+	border: 2px solid rgb(220, 220, 220);
+	border-radius: 5px;
+}
+
+#Other {
+	background-color: #125161;
+	color: rgb(220, 220, 220);
+	font-size: 15px;
+	padding: 10px 20px;
+	margin-top: 15px;
+	margin-right: 15px;
+	border: 2px solid rgb(220, 220, 220);
+	border-radius: 5px;
+}
+
+
+/* Bilder mit links */
+#pics {
+	background-color: #125161;
+	color: rgb(220, 220, 220);
+	font-size: 15px;
+	padding: 10px 20px;
+}
+
+#pics img {
+	width: 200px; /* Optional: Damit die Bilder dieselbe Breite haben */
+	height: 200px; /* Optional: Damit die Bilder dieselbe Höhe haben */
+	margin: 10px 10px; /* Optional: Abstand zwischen den Bildern */
+}
+
+p {	
+	color: rgb(220, 220, 220);
+	font-size: 20px;
+}

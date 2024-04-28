@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Title Here</title>
+	<link rel="stylesheet" href="test.css">
+</head>
+<body>
+	<h1 id="Headline">About Jan Saenger</h1>
+
+	<div id="container">
+		<div id="Buttonline">
+			<b1 id="Button1">Home</b1>
+			<b1 id="Button2">Applications</b1>
+			<b1 id="Button3">Contact</b1>
+			<b1 id="Button4">Other</b1>
+		</div>
+
+		<div id="container2">
+			<!-- verschiedenen Seiten falls einer der Buttons gedrueckt wird -->
+			<div id="Home" class="content">
+				<h2>Home</h2>
+				<p id="HomeText">Loading...</p>
+			</div>
+
+			<div id="Applications" class="content" style="display: none;">
+				<h2>Applications</h2>
+				<p id="AppText">Loading...</p>
+				<p id="Skyscraper">Skyscraper: <a href="randomlink.com">randomlink.com</a>
+				<p id="Cub3d">Cub3d 42: <a href="https://github.com/Jano844/cub3d">https://github.com/Jano844/cub3d</a>
+				<p id="Factory">Factory: <a href="https://github.com/Jano844/FactoryGame">https://github.com/Jano844/FactoryGame</a>
+			</div>
+
+			<div id="Contact" class="content" style="display: none;">
+				<h2>Contact</h2>
+				<p id="ContactText">Loading...</p>
+				<p id="Email">Email: <a href="mailto:jani.saenger@gmail.com">jani.saenger@gmail.com</a>
+				<p id="Telefon">Telefon: <a href="tel:+4917643439956">+49 176 43439956</a>
+			</div>
+
+			<div id="Other" class="content" style="display: none;">
+				<h2>Other</h2>
+				<p id="OtherText">Loading...</p>
+			</div>
+			
+			<!-- Bilder mit links fuer LinkedIn 42 und Github -->
+			<div id="informationbar">
+				<div id="pics">
+					<a href="https://profile.intra.42.fr/users/jsanger">
+						<img src="Pictures/42Cover.png" alt="42">
+					</a>
+					<a href="https://github.com/Jano844">
+						<img src="Pictures/GithubLogo.png" alt="Github">
+					</a>
+					<a href="https://www.linkedin.com/in/jan-saenger-983811286/">
+						<img src="Pictures/LinkedInLogo.png" alt="Github">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- JavaScript -->
+	<script src="script.js"></script>
+</body>
+</html>
