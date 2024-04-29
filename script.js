@@ -39,7 +39,7 @@ Other.addEventListener('click', function() {
 
 
 // text for the different sections
-var home = "Ich Bin Jan Saenger, Geboren am 08.04.2004, und das ist meine Webseite.<br>Hier finden Sie Informationen über mich und meine Projekte.";
+var home = "Ich bin Jan Saenger und das ist meine Webseite.<br>Hier finden Sie Informationen über mich und meine Projekte.";
 document.getElementById("HomeText").innerHTML = home;
 
 var app = "Hier finden Sie einige meiner Projekte bzw. Applikationen.<br>Oder drücken Sie auf das Github Logo um alle Projekte zu sehen.";
